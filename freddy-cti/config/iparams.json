@@ -1,0 +1,22 @@
+{
+  "freshdesk_domain": {
+    "display_name": "Freshdesk Domain",
+    "description": "Your Freshdesk domain, e.g. yourcompany.freshdesk.com",
+    "type": "text",
+    "required": true
+  },
+  "freshdesk_api_key": {
+    "display_name": "Freshdesk API Key",
+    "description": "Your Freshdesk API key",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "anthropic_api_key": {
+    "display_name": "Anthropic API Key",
+    "description": "Your Claude API key, used to generate live-assist content",
+    "type": "text",
+    "required": true,
+    "secure": true
+  }
+}

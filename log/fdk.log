@@ -1,0 +1,45 @@
+2026-09-26 05:19:51.907 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-09-26 05:19:51.909 +0530 [debug] (file.js) Error while requiring C:\Users\admin\.fdk\configs.json: Cannot find module 'C:\Users\admin\.fdk\configs.json'
+Require stack:
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\index.js
+2026-09-26 05:19:51.910 +0530 [debug] (file.js) Error while requiring C:\Users\admin\.fdk\configs.json: Cannot find module 'C:\Users\admin\.fdk\configs.json'
+Require stack:
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\index.js
+2026-09-26 05:19:51.910 +0530 [debug] (configs.js) loaded global configs as "{}"
+2026-09-26 05:19:51.910 +0530 [debug] (file.js) Error while requiring C:\Users\admin\Downloads\Freshworks\.fdk\configs.json: Cannot find module 'C:\Users\admin\Downloads\Freshworks\.fdk\configs.json'
+Require stack:
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\index.js
+2026-09-26 05:19:51.910 +0530 [debug] (file.js) Error while requiring C:\Users\admin\Downloads\Freshworks\.fdk\configs.json: Cannot find module 'C:\Users\admin\Downloads\Freshworks\.fdk\configs.json'
+Require stack:
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\admin\AppData\Roaming\npm\node_modules\fdk\index.js
+2026-09-26 05:19:51.910 +0530 [debug] (configs.js) loaded local configs as "{}"
+2026-09-26 05:19:51.910 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-09-26 05:19:51.910 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-09-26 05:19:51.910 +0530 [debug] (logger.js) Starting FDK in node v24.11.0 on win32
+2026-09-26 05:19:51.910 +0530 [debug] (sequelize.js) setting up sqilite at "C:\Users\admin\Downloads\Freshworks/.fdk/store.sqlite"
+2026-09-26 05:19:51.911 +0530 [error] [31m[ERROR][0m  Node.js version of 18.x.x is required to run this SDK. v24.11.0 found.
+2026-09-26 05:31:23.221 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-09-26 05:31:23.222 +0530 [debug] (configs.js) loaded global configs as "{"global_apps":{"enabled":"true"}}"
+2026-09-26 05:31:23.223 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-09-26 05:31:23.223 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-09-26 05:31:23.223 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-09-26 05:31:23.223 +0530 [debug] (logger.js) Starting FDK in node v18.20.4 on win32
+2026-09-26 05:31:23.223 +0530 [debug] (sequelize.js) setting up sqilite at "C:\Users\admin\Downloads\Freshworks/.fdk/store.sqlite"
+2026-09-26 05:31:23.223 +0530 [debug] (data.js) Read {}
+2026-09-26 05:31:23.223 +0530 [debug] (updater.js) unknown last check, likely a new installation, looking for updates again
+2026-09-26 05:31:23.371 +0530 [debug] (updater.js) downloaded update manifest as {"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"10.1.9","command":"npm install https://cdn.freshdev.io/fdk/latest-v24.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.9","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}}
+2026-09-26 05:31:23.372 +0530 [debug] (data.js) Read {}
+2026-09-26 05:31:26.231 +0530 [debug] (data.js) Read {}
+2026-09-26 05:31:26.258 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"10.1.9","command":"npm install https://cdn.freshdev.io/fdk/latest-v24.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.9","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}}}

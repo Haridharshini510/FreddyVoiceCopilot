@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 13px;
+}
+
+.main {
+  padding: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #d13639;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+.idle-wrap {
+  text-align: center;
+  padding: 40px 0;
+  color: #888;
+}
+
+.idle-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.incoming-banner {
+  background: #d13639;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.assisting-banner {
+  background: #1a7f37;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin: 10px 0 2px 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #888;
+}
+
+.value {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.value.highlight {
+  background: #eef6ff;
+  border-left: 3px solid #2f6fed;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badge-risk {
+  background: #fde2e1;
+  color: #d13639;
+}
+
+.badge-neutral {
+  background: #e6f4ea;
+  color: #1a7f37;
+}
+
+.alert {
+  margin: 0;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.alert-risk {
+  background: #fff4e5;
+  border-left: 3px solid #e08600;
+  color: #7a4b00;
+}
+
+.alert-ok {
+  background: #f4f4f4;
+  border-left: 3px solid #ccc;
+  color: #666;
+}
+
+.button-row {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #1a7f37;
+  color: white;
+}
+
+.btn-secondary {
+  background: #eee;
+  color: #333;
+}
+
+.btn-danger {
+  background: #d13639;
+  color: white;
+}

@@ -1,0 +1,25 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "common": {
+      "location": {
+        "cti_global_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+      "requests": {
+        "getTickets": {},
+        "getTicketsByRequester": {},
+        "getContact": {},
+        "updateTicket": {},
+        "generateAssist": {}
+      }
+    },
+    "support_ticket": {}
+  },
+  "engines": {
+    "node": "18.20.4",
+    "fdk": "9.8.2"
+  }
+}

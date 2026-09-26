@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Freddy Voice Copilot</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async src="{{{appclient}}}"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header">
+        <span class="header-title">Freddy Voice Copilot</span>
+      </div>
+
+      <div id="screen-idle" class="screen active">
+        <div class="idle-wrap">
+          <div class="idle-icon">☎</div>
+          <p>Waiting for incoming escalated calls...</p>
+        </div>
+      </div>
+
+      <div id="screen-incoming" class="screen">
+        <div class="incoming-banner">Incoming Escalation</div>
+        <p class="label">Source</p>
+        <p id="incoming-source" class="value"></p>
+
+        <p class="label">Caller</p>
+        <p id="incoming-contact" class="value"></p>
+
+        <p class="label">Issue Type</p>
+        <p id="incoming-subject" class="value"></p>
+
+        <p class="label">Issue Description</p>
+        <p id="incoming-description" class="value"></p>
+
+        <p class="label">Sentiment</p>
+        <span id="incoming-sentiment" class="badge"></span>
+
+        <div class="button-row">
+          <button id="btn-answer" class="btn btn-primary">Answer Call</button>
+          <button id="btn-dismiss" class="btn btn-secondary">Dismiss</button>
+        </div>
+      </div>
+
+      <div id="screen-assisting" class="screen">
+        <div class="assisting-banner">Live Call Assist</div>
+        <p class="label">Issue</p>
+        <p id="assist-subject" class="value"></p>
+
+        <p class="label">Customer History</p>
+        <p id="assist-history" class="value"></p>
+
+        <p class="label">Next Best Step</p>
+        <p id="assist-next-step" class="value highlight"></p>
+
+        <p class="label">Risk / Compliance Alert</p>
+        <p id="assist-risk" class="alert"></p>
+
+        <p class="label">Live Coaching</p>
+        <p id="assist-coaching" class="value"></p>
+
+        <div class="button-row">
+          <button id="btn-end-call" class="btn btn-danger">End Call</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script defer src="scripts/app.js"></script>
+</html>

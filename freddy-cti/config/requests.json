@@ -1,0 +1,66 @@
+{
+  "getTickets": {
+    "schema": {
+      "method": "GET",
+      "host": "<%= iparam.freshdesk_domain %>",
+      "path": "/api/v2/tickets",
+      "headers": {
+        "Authorization": "<%= context.authHeader %>"
+      },
+      "query": {
+        "order_by": "created_at",
+        "order_type": "desc",
+        "per_page": "5"
+      }
+    }
+  },
+  "getTicketsByRequester": {
+    "schema": {
+      "method": "GET",
+      "host": "<%= iparam.freshdesk_domain %>",
+      "path": "/api/v2/tickets",
+      "headers": {
+        "Authorization": "<%= context.authHeader %>"
+      },
+      "query": {
+        "requester_id": "<%= context.requesterId %>",
+        "order_by": "created_at",
+        "order_type": "desc",
+        "per_page": "5"
+      }
+    }
+  },
+  "getContact": {
+    "schema": {
+      "method": "GET",
+      "host": "<%= iparam.freshdesk_domain %>",
+      "path": "/api/v2/contacts/<%= context.contactId %>",
+      "headers": {
+        "Authorization": "<%= context.authHeader %>"
+      }
+    }
+  },
+  "updateTicket": {
+    "schema": {
+      "method": "PUT",
+      "host": "<%= iparam.freshdesk_domain %>",
+      "path": "/api/v2/tickets/<%= context.ticketId %>",
+      "headers": {
+        "Authorization": "<%= context.authHeader %>",
+        "Content-Type": "application/json"
+      }
+    }
+  },
+  "generateAssist": {
+    "schema": {
+      "method": "POST",
+      "host": "api.anthropic.com",
+      "path": "/v1/messages",
+      "headers": {
+        "x-api-key": "<%= iparam.anthropic_api_key %>",
+        "anthropic-version": "2023-06-01",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
